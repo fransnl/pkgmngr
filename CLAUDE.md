@@ -7,6 +7,7 @@ TUI in python for mac, windows and linux that gatheres all packages from differe
 - Tab key to switch tabs
 - Arrow keys or `j` and `k`, like in vim, to go up and down the list of packages
 - Enter key to view info about a package
+- **Only** keystrokes to interact with the tui.
 
 **Supported package managers**
 - NPM, global and local to folder
@@ -15,6 +16,7 @@ TUI in python for mac, windows and linux that gatheres all packages from differe
 - apt, dnf, yay
 - cargo
 - winget
+- flatpak
 
 # Instructions
 

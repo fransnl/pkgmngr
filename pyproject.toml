@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkgmngr"
+version = "0.1.0"
+description = "TUI that lists packages from every package manager installed on the system"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["textual>=0.80"]
+
+[project.scripts]
+pkgmngr = "tui.main:main"
+
+[tool.setuptools]
+packages = ["tui", "tui.managers"]
